@@ -55,6 +55,7 @@ ILINE SInputPortConfig InputPortConfig_Null()
 #endif
 
 #if CDK_VERSION < 340
+#define eFLPriority_Default FRAMEWORKLISTENERPRIORITY_DEFAULT
 #define VIRTUAL_SCREEN_WIDTH 800.0f //!< Width of the virtual screen, inside the plugin relative sizes are used.
 #define VIRTUAL_SCREEN_HEIGHT 600.0f //!< Height of the virtual screen, inside the plugin relative sizes are used.
 #endif
